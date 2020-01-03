@@ -31,6 +31,11 @@
   body {
     background-color: #ffc730;
   }
+
+  hr {
+    border: solid 1.5px gray;
+    margin: 25px 0px;
+  }
 /**/
 
 
@@ -215,8 +220,12 @@
     font-size: 30px;
   }
 
+  .more_contant {
+    font-weight: normal;
+    font-size: 23px;
+  }
+
   .more_contant p {
-    font-size: 25px;
   }
   
   .why {
