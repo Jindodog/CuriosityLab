@@ -114,11 +114,11 @@
 /*2단계*/
 @media (min-width: 801px) and (max-width: 1280px) {
   *{
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .name {
-    font-size: 30px;
+    font-size: 40px;
     padding-bottom: 5px;
   }
 
@@ -157,20 +157,21 @@
 
     margin: 15px;
 
-    padding: 20px 15px 70px 20px;
+    padding: 20px 15px 100px 20px;
   }
 
   .more {
     background-color: #7640ff;
-    width: 100px;
-    height: 50px;
+    width: 105px;
+    height: 55px;
     border-radius: 10px;
     text-align: center;
     padding-top: 5px;
     right: 20px;
+    bottom: 20px;
 
     position: absolute;
-    font-size: bold;
+    font-weight: bold;
     transition: 0.5s;
   }
 
@@ -179,6 +180,7 @@
   }
 
   .contant p {
+    font-size: 30px;
     padding-bottom: 5px;
     transition: 0.5s;
   }
