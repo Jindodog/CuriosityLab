@@ -47,85 +47,6 @@
 
 /*1단계*/
 @media (max-width: 800px) {
-  *{
-    font-size: 15px;
-  }
-
-  .name {
-    font-size: 18px;
-    padding-bottom: 5px;
-  }
-
-  header {
-    height: 100px;
-    position: relative;
-  }
-
-  .serch_input input[type=text] {
-    width: 80%;
-    height: 45%;
-    border-radius: 20px;
-    background-color: white;
-    border: 3px solid #7640ff;
-    position: absolute;
-
-    top: 25%;
-    right: 10%;
-
-    transition: 0.5s;
-
-    padding-left: 20px;
-  }
-
-  .serch_input input[type=text]:focus {
-    border: 3px solid #ffc730;
-
-    transition: 0.5s;
-  }
-
-  .item {
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 4px 4px 4px #2e2e2e;
-    position: relative;
-
-    margin: 15px;
-
-    padding: 15px 10px 45px 10px;
-  }
-
-  .more {
-    background-color: #7640ff;
-    width: 55px;
-    border-radius: 10px;
-    padding-left: 6.5px;
-    margin-top: 7px;
-    right: 20px;
-    position: absolute;
-
-    font-size: bold;
-
-    transition: 0.5s;
-  }
-
-  .more:hover {
-    box-shadow: 3px 3px 3px #2e2e2e;
-  }
-
-  .contant p {
-    padding-bottom: 5px;
-    transition: 0.5s;
-  }
-}
-/**/
-
-
-
-/*2단계*/
-@media (min-width: 801px) and (max-width: 1280px) {
-  *{
-  }
-
   .name {
     font-size: 40px;
     padding-bottom: 5px;
@@ -231,7 +152,143 @@
     font-size: 23px;
   }
 
-  .more_contant p {
+  .more_contant div {
+    padding-bottom: 15px;
+  }
+  
+  .why {
+    width: 96%;
+    background-color: #ff5c5c;
+    border-radius: 10px;
+    margin: 25px 20px;
+    padding: 15px 15px 25px 15px;
+
+    box-shadow: 4px 4px 4px #2e2e2e;
+
+    color: white;
+  }
+
+  .why p, .why a {
+    padding: 5px 10px;
+
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+/**/
+
+
+
+/*2단계*/
+@media (min-width: 801px) and (max-width: 1280px) {
+  .name {
+    font-size: 40px;
+    padding-bottom: 5px;
+  }
+
+  header {
+    height: 250px;
+    position: relative;
+  }
+
+  .serch_input input[type=text] {
+    width: 80%;
+    height: 45%;
+    border-radius: 20px;
+    background-color: white;
+    border: 3px solid #7640ff;
+    position: absolute;
+
+    top: 25%;
+    right: 10%;
+
+    transition: 0.5s;
+
+    padding-left: 20px;
+
+    font-size: 30px;
+  }
+
+  .serch_input input[type=text]:focus {
+    border: 3px solid #ffc730;
+
+    transition: 0.5s;
+  }
+
+  .item {
+    background-color: white;
+    box-shadow: 4px 4px 4px #2e2e2e;
+    border-radius: 10px;
+    position: relative;
+
+    margin: 30px 15px;
+
+    padding: 20px 15px 130px 20px;
+  }
+
+  .more {
+    background-color: #7640ff;
+    width: 130px;
+    height: 70px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+    right: 20px;
+    bottom: 20px;
+
+    position: absolute;
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.5s;
+  }
+
+  .more:hover {
+    box-shadow: 3px 3px 3px #2e2e2e;
+  }
+
+  .contant p {
+    font-size: 25px;
+    padding-bottom: 20px;
+    transition: 0.5s;
+  }
+
+
+  .logo h1 a {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    top: 35%;
+    right: 34%;
+    position: absolute;
+  }
+  
+  .more_in {
+    width: 96%;
+    background-color: white;
+    margin: 25px 20px;
+    border-radius: 5px;
+    padding: 15px 15px 25px 15px;
+    box-shadow: 4px 4px 4px #2e2e2e;
+  
+    font-weight: bold;
+  }
+  
+  .more_name {
+    padding-bottom: 10px;
+  }
+  
+  .more_name h2 {
+    font-size: 30px;
+  }
+
+  .more_contant {
+    font-weight: normal;
+    font-size: 23px;
+  }
+
+  .more_contant div {
+    padding-bottom: 15px;
   }
   
   .why {
@@ -259,34 +316,32 @@
 
 /*3단계*/
 @media (min-width: 1281px) {
-  *{
-    font-size: 17px;
-  }
-
   .name {
-    font-size: 20px;
+    font-size: 40px;
     padding-bottom: 5px;
   }
 
   header {
-    height: 130px;
+    height: 250px;
     position: relative;
   }
 
   .serch_input input[type=text] {
     width: 80%;
-    height: 40%;
+    height: 45%;
     border-radius: 20px;
     background-color: white;
     border: 3px solid #7640ff;
     position: absolute;
 
-    top: 30%;
+    top: 25%;
     right: 10%;
 
     transition: 0.5s;
 
     padding-left: 20px;
+
+    font-size: 30px;
   }
 
   .serch_input input[type=text]:focus {
@@ -297,26 +352,28 @@
 
   .item {
     background-color: white;
-    border-radius: 5px;
     box-shadow: 4px 4px 4px #2e2e2e;
+    border-radius: 10px;
     position: relative;
 
-    margin: 15px;
+    margin: 30px 15px;
 
-    padding: 15px 10px 45px 15px;
+    padding: 20px 15px 130px 20px;
   }
 
   .more {
     background-color: #7640ff;
-    width: 60px;
-    height: 30px;
+    width: 130px;
+    height: 70px;
     border-radius: 10px;
     text-align: center;
-    padding-top: 1px;
+    padding-top: 5px;
     right: 20px;
+    bottom: 20px;
 
     position: absolute;
-    font-size: bold;
+    font-weight: bold;
+    font-size: 40px;
     transition: 0.5s;
   }
 
@@ -325,40 +382,67 @@
   }
 
   .contant p {
-    padding-bottom: 5px;
+    font-size: 25px;
+    padding-bottom: 20px;
     transition: 0.5s;
+  }
+
+
+  .logo h1 a {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    top: 35%;
+    right: 34%;
+    position: absolute;
+  }
+  
+  .more_in {
+    width: 96%;
+    background-color: white;
+    margin: 25px 20px;
+    border-radius: 5px;
+    padding: 15px 15px 25px 15px;
+    box-shadow: 4px 4px 4px #2e2e2e;
+  
+    font-weight: bold;
+  }
+  
+  .more_name {
+    padding-bottom: 10px;
+  }
+  
+  .more_name h2 {
+    font-size: 30px;
+  }
+
+  .more_contant {
+    font-weight: normal;
+    font-size: 23px;
+  }
+
+  .more_contant div {
+    padding-bottom: 15px;
+  }
+  
+  .why {
+    width: 96%;
+    background-color: #ff5c5c;
+    border-radius: 10px;
+    margin: 25px 20px;
+    padding: 15px 15px 25px 15px;
+
+    box-shadow: 4px 4px 4px #2e2e2e;
+
+    color: white;
+  }
+
+  .why p, .why a {
+    padding: 5px 10px;
+
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
   }
 }
 /**/
-
-
-/*.logo h1 {
-  color: white;
-  text-align: center;
-  font-size: 30px;
-  padding-top: 25px;
-}
-
-.more_in {
-  background-color: white;
-  margin: 25px 20px;
-  border-radius: 5px;
-  padding: 15px 15px 25px 15px;
-  box-shadow: 3px 3px 3px #2e2e2e;
-
-  font-weight: bold;
-}
-
-.more_name {
-  padding-bottom: 10px;
-}
-
-.more_name h2 {
-  font-size: 20px;
-}
-
-.why {
-  width: 50%;
-  background-color: white;
-  border-radius: 20px;
-}*/
