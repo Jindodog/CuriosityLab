@@ -36,6 +36,11 @@
     border: solid 1.5px gray;
     margin: 25px 0px;
   }
+
+  .more_contant a {
+    background-color: #ffc730;
+    padding: 0 5px;
+  }
 /**/
 
 
